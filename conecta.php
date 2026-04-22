@@ -4,7 +4,7 @@ $host = "sql106.infinityfree.com";
 $banco = "if0_41614895_atividade";
 $usuario = "if0_41614895";
 $senha = "Tnomx3aySudT";
-
+ 
 try {
     // Criando uma instância PDO para conectar ao banco MySQL
     $conexao = new PDO("mysql:host=$host;dbname=$banco;charset=utf8", $usuario, $senha);
